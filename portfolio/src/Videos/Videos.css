@@ -1,0 +1,10 @@
+.Videos{
+    max-width: 70%;
+    margin-top: 20% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+   
+}

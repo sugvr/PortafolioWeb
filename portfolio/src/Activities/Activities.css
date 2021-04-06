@@ -1,0 +1,10 @@
+.photosView{
+  margin: 100px;
+}
+
+.ULcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
