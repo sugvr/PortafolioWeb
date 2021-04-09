@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
+
 import "./Sidebar.css";
 
 function SideBar() {
-
   function myFunction() {
-    var x = document.getElementById("myTopnav");
+    let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
@@ -28,17 +28,37 @@ function SideBar() {
         </button> */}
 
         <div>
-      
           <h1 className="nav-logo">Isaí Delgado</h1>
         </div>
 
         <div class="topnav" id="myTopnav">
-          <a href="#Inicio" ><i style={{color: 'yellow'}}class="fa fa-fw fa-home"/>Inicio</a>
-          <a href="#About"><i style={{color: 'tomato'}} class="fa fa-fw fa-user"/>Acerca de mi</a>
-          <a href="#Experience"><i style={{color: 'blueviolet'}} class="fa fa-clock-o" aria-hidden="true"></i> Experiencia</a>
-          <a href="#Know"><i style={{color: 'yellow'}} class="fa fa-book"></i> Conocimiento</a>
-          <a href="#Jobs"> <i style={{color: 'tomato'}} class="fa fa-briefcase"/> Trabajos</a>
-          <a href="#Contact"><i style={{color: 'blueviolet'}} class="fa fa-fw fa-envelope"/>Contactarme</a>
+          <a href="#Inicio">
+            <i style={{ color: "yellow" }} class="fa fa-fw fa-home" />
+            Inicio
+          </a>
+          <a href="#About">
+            <i style={{ color: "tomato" }} class="fa fa-fw fa-user" />
+            Acerca de mi
+          </a>
+          <a href="#Experience">
+            <i
+              style={{ color: "blueviolet" }}
+              class="fa fa-clock-o"
+              aria-hidden="true"
+            ></i>{" "}
+            Experiencia
+          </a>
+          <a href="#Know">
+            <i style={{ color: "yellow" }} class="fa fa-book"></i> Conocimiento
+          </a>
+          <a href="#Jobs">
+            {" "}
+            <i style={{ color: "tomato" }} class="fa fa-briefcase" /> Trabajos
+          </a>
+          <a href="#Contact">
+            <i style={{ color: "blueviolet" }} class="fa fa-fw fa-envelope" />
+            Contactarme
+          </a>
           <a href="javascript:void(0);" class="icon" onclick={myFunction}>
             <i class="fa fa-bars "></i>
           </a>

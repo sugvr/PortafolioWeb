@@ -78,10 +78,11 @@
  
 } */
 
-.socila-icons{
+.social-icons{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
 }
 .icons{
   display: flex;

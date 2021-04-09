@@ -1,0 +1,14 @@
+.CreatorContainer{
+  border: 5px solid #00adb5;
+  padding: 8%;
+  margin: 10%;
+
+}
+
+
+
+@media (max-width: 767px) {
+    .CreatorContainer {
+      border: none;
+    }
+  }

@@ -12,6 +12,7 @@ import Jobs from "./../Jobs/Jobs";
 import Know from "./../Conocimientos/Know";
 import Experience from "./../Experience/Experience";
 import Activities from "./../Activities/Activities";
+import Created from "./../Created/Created"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Head />
         <Social />
         <About />
+        <Created/>
         <Experience />
         <Know />
         <div className="mysection2"/>

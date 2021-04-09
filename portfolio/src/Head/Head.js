@@ -29,7 +29,7 @@ function Head() {
             </li>
           </ul>
         </div>
-        <div class="socila-icons">
+        <div class="social-icons">
           <div class="icons">
             <div class="icon-d">
               <i class="fa fa-facebook-f"></i>
